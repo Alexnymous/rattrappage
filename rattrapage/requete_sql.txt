@@ -1,0 +1,4 @@
+SELECT articles.id, users.id, users.firstname, users.lastname
+FROM articles
+WHERE articles.id = '10'
+INNER JOIN users ON articles.id_user=users.id;

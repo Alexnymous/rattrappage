@@ -1,0 +1,7 @@
+<?php
+
+require "Chat.php";
+
+
+
+
